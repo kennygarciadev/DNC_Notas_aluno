@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel do Professor</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <main>
+        <h1>Painel do Aluno</h1>
+            <!--GET: informacoes enviadas pela URL
+        POST: enviado  via background da pagina, deve ser feito por medio de um servidor ou outro host-->
+        <form action="media.html" method="GET">
+            <label>Digite a primeira nota do aluno:</label>
+            <input name="primeraNota" placeholder="0" type="number" required>
+            <label>Digite a segunda nota do aluno:</label>
+            <input name="segundaNota" placeholder="0" type="number" required>
+
+            <input value="Calcular" type="submit">
+        </form>   
+    </main>
+</body>
+</html>
